@@ -7,7 +7,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GreetingTest {
 
-    Greeting greeting;
+    private Greeting greeting;
+
     @BeforeEach
     void setUp() {
         System.out.println("In before Each...");
